@@ -29,6 +29,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         dataSource.append(("Trenton Map",        "twcweather://Map/38382:4:US"))
         dataSource.append(("NY NY Map",          "twcweather://Map/10001:4:US"))
         dataSource.append(("Purchase",           "twcweather://Purchase"))
+        dataSource.append(("Settings",           "twcweather://Settings"))
         
         tableViewMain.reloadData()
     }
