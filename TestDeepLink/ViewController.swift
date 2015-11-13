@@ -31,6 +31,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         dataSource.append(("Purchase",           "twcweather://Purchase"))
         dataSource.append(("Settings",           "twcweather://Settings"))
         dataSource.append(("My Alerts",          "twcweather://MyAlerts"))
+        dataSource.append(("About",              "twcweather://About"))
         
         tableViewMain.reloadData()
     }
